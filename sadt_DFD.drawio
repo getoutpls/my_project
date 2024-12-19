@@ -1,9 +1,78 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="25.0.3">
   <diagram name="Страница — 1" id="NPuMPnxLAG1J5m0hc8WX">
-    <mxGraphModel>
+    <mxGraphModel dx="668" dy="654" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="-eIZ3SRn--MZBKKr23gA-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-eIZ3SRn--MZBKKr23gA-1" target="-eIZ3SRn--MZBKKr23gA-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-eIZ3SRn--MZBKKr23gA-1" value="Клиент" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="50" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-eIZ3SRn--MZBKKr23gA-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-eIZ3SRn--MZBKKr23gA-2" target="-eIZ3SRn--MZBKKr23gA-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-eIZ3SRn--MZBKKr23gA-2" value="Регистрация клиента" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="130" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-eIZ3SRn--MZBKKr23gA-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-eIZ3SRn--MZBKKr23gA-3" target="-eIZ3SRn--MZBKKr23gA-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-eIZ3SRn--MZBKKr23gA-3" value="Формирование предложений" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="210" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-eIZ3SRn--MZBKKr23gA-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-eIZ3SRn--MZBKKr23gA-4" target="-eIZ3SRn--MZBKKr23gA-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-eIZ3SRn--MZBKKr23gA-4" value="Бронирование услуг" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="290" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-eIZ3SRn--MZBKKr23gA-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-eIZ3SRn--MZBKKr23gA-5" target="-eIZ3SRn--MZBKKr23gA-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-eIZ3SRn--MZBKKr23gA-5" value="Оформление документов" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="370" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-eIZ3SRn--MZBKKr23gA-6" value="Обновление данных" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="450" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-eIZ3SRn--MZBKKr23gA-8" value="Запросы клиентов, личные данные" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="90" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-eIZ3SRn--MZBKKr23gA-9" value="Требования" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="170" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-eIZ3SRn--MZBKKr23gA-13" value="Выбранный тур" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="414" y="250" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-eIZ3SRn--MZBKKr23gA-15" value="Подтверждённый тур" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="330" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-eIZ3SRn--MZBKKr23gA-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-eIZ3SRn--MZBKKr23gA-17" target="-eIZ3SRn--MZBKKr23gA-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-eIZ3SRn--MZBKKr23gA-17" value="Данные туров" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="173" y="210" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-eIZ3SRn--MZBKKr23gA-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-eIZ3SRn--MZBKKr23gA-19" target="-eIZ3SRn--MZBKKr23gA-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-eIZ3SRn--MZBKKr23gA-19" value="Документы клиента" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="173" y="370" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-eIZ3SRn--MZBKKr23gA-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-eIZ3SRn--MZBKKr23gA-22" target="-eIZ3SRn--MZBKKr23gA-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-eIZ3SRn--MZBKKr23gA-22" value="Услуги" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="173" y="450" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-eIZ3SRn--MZBKKr23gA-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="-eIZ3SRn--MZBKKr23gA-24" target="-eIZ3SRn--MZBKKr23gA-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-eIZ3SRn--MZBKKr23gA-24" value="Поставщики" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="530" width="130" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
