@@ -1,0 +1,300 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 15px;
+}
+
+/* Блок услуг */
+.block {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+    }
+    h2 {
+    text-align: center;
+    color: #333;
+    }
+    p {
+    color: #555;
+    }
+/* Навигационная панель: */
+.navbar {
+    background-color: #007bff;
+    padding: 15px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-item a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.nav-item a:hover {
+    background-color: #0056b3;
+    transition: background-color 0.3s ease;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* О поликлинике: */
+.about-section {
+    max-width: 800px;
+    margin: auto;
+}
+
+.about-section h1, h2 {
+    color: #007bff;
+}
+
+.description {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.mission {
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+
+.values {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.gallery-item {
+    width: 45%;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* "Врачи": */
+.doctors-section {
+    max-width: 800px;
+    margin: auto;
+}
+
+.doctors-section h1 {
+    color: #007bff;
+}
+
+.carousel {
+    position: relative;
+    overflow: hidden;
+    height: 300px;
+
+}
+
+.carousel-item {
+    display: none; /* Скрываем все элементы по умолчанию */
+    text-align: center;
+}
+
+.doctor-image {
+    width: 170px;
+    object-fit: cover;
+    height: auto;
+    border-radius: 10px;
+
+}
+
+.doctor-info {
+    margin-top: 10px;
+}
+
+.appointment-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.appointment-button:hover {
+    background-color: #0056b3;
+}
+
+/* Форма записи: */
+.appointment-section {
+    max-width: 600px;
+    margin: auto;
+}
+
+.appointment-section h1 {
+    color: #007bff;
+    text-align: center;
+}
+
+.appointment-section label {
+    display: block;
+    margin: 15px 0 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="password"]
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.submit-button {
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    width: 100%;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+/* Отзывы пациентов */
+.reviews-section {
+    max-width: 600px;
+    margin: auto;
+}
+
+.reviews-section h1 {
+    color: #007bff;
+    text-align: center;
+}
+
+.review {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px 0;
+    background-color: #f9f9f9;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+.rating {
+    margin: 10px 0;
+}
+
+.star {
+    font-size: 24px;
+    color: #ccc;
+}
+
+.star.filled {
+    color: #ffcc00;
+}
+
+.author {
+    font-weight: bold;
+    text-align: right;
+}
+
+/* Контакты: */
+.contacts-section {
+    max-width: 600px;
+    margin: auto;
+}
+
+.contacts-section h1 {
+    color: #007bff;
+    text-align: center;
+}
+
+.contact-item {
+    margin: 15px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.contacts-section h2 {
+    margin: 0;
+}
+
+.contacts-section p {
+    margin: 5px 0;
+}
+
+.contacts-section a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contacts-section a:hover {
+    text-decoration: underline;
+}
+
+/* Подвал: */
+.footer-section {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #ccc;
+}
+
+.social-media {
+    margin-bottom: 10px;
+}
+
+.social-media a {
+    margin: 0 10px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.social-media a:hover {
+    text-decoration: underline;
+}
+
+.privacy-policy {
+    margin: 10px 0;
+}
+
+.privacy-policy a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.privacy-policy a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #666;
+}
